@@ -1,14 +1,24 @@
 ## Motivation (au maximum 50 mots)
 1) Peut-être trop général sur les algos post-quantiques, mais vraiment c'qui s'est passé :
-Avec l'avènement qui semble imminent de la suprématie quantique, la recherche d'algorithmes 
-plus robustes et théoriquement prouvés comme difficiles s'est intensifiée et suscite 
-de plus en plus d'intérêt. En particulier l'obfuscation de circuits...(à finir. 33 mots )
-2) Plus centré sur l'utilité de l'obfuscation, mais semble plus sorti de nulle part :
+Avec l'avènement qui semble imminent de la suprématie quantique, la recherche d'algorithmes (12 mots)
+plus robustes et théoriquement prouvés comme difficiles s'est intensifiée et suscite (23 mots)
+de plus en plus d'intérêt. En particulier, l'obfuscation de circuits s'inscrit dans la (36 mots)
+cryptographie. La théorie des tresses propose des moyens raffinés pour (46 mots)
+parvenir à cette sûreté escomptée. (51 mots)
+2) Version 2, par Marius:
+Face à l'émergence des ordinateurs quantiques, les protocoles classiques sont menacés. L'obfuscation de circuits,
+essentielle pour garantir la confidentialité des systèmes embarqués, constitue un enjeu clé en cryptographie.
+La théorie des tresses offre des outils mathématiques prometteurs pour concevoir des obfuscations robustes et résistantes aux attaques post-quantiques.
+3) Plus centré sur l'utilité de l'obfuscation, mais semble plus sorti de nulle part :
 De nombreuses machines nécessitent pour leur sécurité de composants cryptographiques qui 
-dans le cas souvent récurrents dans le cas de systèmes embarqués nécessitent que le fonctionnement
-de se composant reste caché pour garantir la sécurité. C'est pour cela que nous nous somment intéressés
+dans le cas souvent récurrents de systèmes embarqués nécessitent que le fonctionnement
+de ses composants reste caché pour garantir la sécurité. C'est pour cela que nous nous somment intéressés
 à la manière dont on peut transformer un circuit en un circuit équivalent qu'il serait très difficile à
 comprendre (à modifier et résumer : 62 mots )
+4) Version 4, par Marius encore:
+Avec l’essor des ordinateurs quantiques, garantir la confidentialité des systèmes embarqués nécessite des algorithmes robustes.
+L’obfuscation de circuits, qui consiste à rendre leur fonctionnement incompréhensible tout en préservant leur utilité, s’avère essentielle.
+La théorie des tresses offre des outils prometteurs pour développer des solutions sécurisées et résistantes aux attaques post-quantiques.
 
 ## Rapport au thème (au maximum 50 mots)
 Notre TIPE s'inscrit donc dans le thème de l'année à la fois sur le principe de transformer un circuit
@@ -17,6 +27,20 @@ algorithmes en jeu ont été conçus avec sécurité faces aux algorithmes quant
 ( à reformuler je pense. 48 mots )
 
 ## Bibliographie commentée (au maximum 650 mots)
+
+Un genre de préambule pour en mettre plein les yeux (hors de question de rester humble après toutes les thèses qu'on a bouffé) puis une jolie bibliographie commentée !
+
+L’étude des tresses, un domaine fascinant des mathématiques, remonte à l’époque d'Emil Artin qui, en 1925, publia une première formalisation de la théorie des groupes de tresses dans « Theory of Braids ». Plus tard, en 1969, F. A. Garside proposa une présentation constructive du groupe des tresses dans son article fondateur « The Braid Group and Other Groups », introduisant des notions clés comme la forme normale et les invariants qui facilitent la résolution de problèmes complexes, notamment le problème de l’isotopie. Ces avancées ont servi de base à une multitude de recherches subséquentes, avec des contributions remarquables de Patrick Dehornoy dans les années 1990, qui ont enrichi la théorie par des approches algébriques et topologiques innovantes, comme illustré dans son étude « Le problème d'isotopie des tresses » (2010).
+
+La théorie des tresses, au-delà de son aspect purement mathématique, joue un rôle fondamental dans des domaines appliqués tels que la cryptographie. Plus précisément, les tresses sont étudiées pour leur capacité à modéliser des systèmes complexes et à créer des structures algorithmiques résistantes à l’analyse. Dans le contexte de la cryptographie moderne, l’obfuscation de circuits constitue un champ d’application prometteur. L’objectif principal de cette technique est de transformer un circuit logique en un équivalent fonctionnellement identique mais difficile à comprendre. Cela s’inscrit dans une réponse globale à la montée des menaces liées aux technologies quantiques, susceptibles de briser les systèmes de cryptographie classique. Dans cet esprit, des travaux récents, comme « Circuit Obfuscation Using Braids » (2014) de Gorjan Alagic, Stacey Jeffery et Stephen Jordan, ont montré comment les relations des groupes de tresses peuvent être exploitées pour créer des circuits indéchiffrables, tout en maintenant leur efficacité computationnelle.
+
+Historiquement, la difficulté majeure dans la théorie des tresses a été de développer des solutions au problème de l’isotopie. Ce problème consiste à déterminer si deux diagrammes de tresses sont isotopes, c’est-à-dire s’ils représentent la même classe de tresses après déformations continues. Les approches algébriques ont été déterminantes pour proposer des invariants utilisables et des structures de groupe facilitant la comparaison entre diagrammes. Les résultats de Garside sur les formes normales des tresses et l'introduction des générateurs de tresses par Artin constituent les fondations de cette approche.
+
+Ces concepts se retrouvent naturellement dans l’obfuscation de circuits, qui repose sur la difficulté à distinguer deux circuits fonctionnellement équivalents mais représentés de manière différente. L’idée de base, comme le décrit « Partial-indistinguishability obfuscation using braids » (2012) par les mêmes auteurs, est de s’appuyer sur des relations mathématiques robustes issues des groupes de tresses pour obtenir une obfuscation résistante aux attaques computationnelles. Ces travaux exploitent les propriétés des formes normales des tresses pour transformer les circuits en versions obfusquées, garantissant une indistinguabilité partielle face aux adversaires. En plus de leur pertinence pour les circuits classiques, ces techniques se généralisent aux circuits quantiques, où les propriétés topologiques des tresses jouent un rôle central.
+
+L’efficacité de ces méthodes repose sur l’existence d’algorithmes en temps polynomial pour réduire des tresses complexes en leurs formes normales. Ces algorithmes, basés sur les travaux de Garside, permettent une représentation concise et standardisée des circuits obfusqués, évitant des ambiguïtés exploitables par des attaquants. L’utilisation de groupes comme les groupes de tresses Bn ou leurs variantes, combinée avec des algorithmes efficaces pour résoudre des problèmes d’équivalence, constitue une étape cruciale vers des systèmes cryptographiques sécurisés.
+
+Enfin, le lien entre théorie des tresses et cryptographie ouvre des perspectives intéressantes pour d'autres applications, notamment la vérification d'intégrité dans des systèmes distribués ou la modélisation de systèmes complexes. Bien que des questions subsistent, notamment sur la robustesse des méthodes d’obfuscation face à des adversaires quantiques, les travaux récents offrent une base solide pour explorer ces nouveaux horizons. En somme, l’application de la théorie des tresses à l’obfuscation de circuits représente une symbiose unique entre mathématiques fondamentales et enjeux pratiques de la cybersécurité moderne.
 
 
 ## Problématique retenue (au maximum 50 mots)
