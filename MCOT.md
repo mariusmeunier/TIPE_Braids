@@ -17,7 +17,7 @@ De nombreuses machines nécessitent pour leur sécurité de composants cryptogra
 dans le cas souvent récurrents de systèmes embarqués nécessitent que le fonctionnement
 de ses composants reste caché pour garantir la sécurité. C'est pour cela que nous nous somment intéressés
 à la manière dont on peut transformer un circuit en un circuit équivalent qu'il serait très difficile à
-comprendre
+comprendre.
 
 4) Quatrième version:
 Avec l’essor des ordinateurs quantiques, garantir la confidentialité des systèmes embarqués nécessite des algorithmes robustes.
@@ -25,10 +25,10 @@ L’obfuscation de circuits, qui consiste à rendre leur fonctionnement incompr�
 La théorie des tresses offre des outils prometteurs pour développer des solutions sécurisées et résistantes aux attaques post-quantiques.
 
 ## Rapport au thème (au maximum 50 mots)
-Notre TIPE s'inscrit donc dans le thème de l'année à la fois sur le principe de transformer un circuit
-en un autre plus sécurisé, que dans sa démarche globale de transition post-quantique car les 
-algorithmes en jeu ont été conçus avec sécurité faces aux algorithmes quantiques en tête.
-( à reformuler je pense. 48 mots )
+Ce travail explore la transformation de circuits en versions plus sécurisées,
+une approche essentielle pour accompagner la transition vers une cryptographie
+post-quantique. En combinant des outils mathématiques issus de la théorie des
+tresses, il vise à répondre aux enjeux de sécurité face aux menaces des technologies émergentes.
 
 ## Bibliographie commentée (au maximum 650 mots)
 
@@ -50,14 +50,27 @@ Enfin, le lien entre théorie des tresses et cryptographie ouvre des perspective
 
 ## Problématique retenue (au maximum 50 mots)
 
-La théorie des tresses offre des perspectives prometteuses en matière de sécurisation de systèmes d'information dans un contexte post-quantique. Comment la théorie des tresses peut-elle être exploitée pour développer des outils cryptographiques robustes, adaptés à la transition post-quantique, tout en répondant aux enjeux de praticité et de sécurité algorithmique ?
+La théorie des tresses offre des perspectives prometteuses en matière de sécurisation de
+systèmes d'information dans un contexte post-quantique. Comment la théorie des tresses
+peut-elle être exploitée pour développer des outils cryptographiques robustes, adaptés
+à la transition post-quantique, tout en répondant aux enjeux d'efficacité et de sécurité algorithmique ?
+
+(49-50 mots, tout pile !)
 
 ## Objectifs du TIPE Acssiohm (au maximum 100 mots)
 
 ## Objectifs du TIPE Marius (au maximum 100 mots)
 
-
-
+L’objectif est d’explorer l’application de la théorie des
+tresses à l’obfuscation de circuits dans un contexte post-quantique.
+En partant des propriétés algébriques des groupes de tresses, le
+travail consiste à analyser leur potentiel pour renforcer la sécurité
+des circuits, tout en évaluant leur complexité algorithmique. Des exemples
+concrets de circuits seront étudiés pour tester la faisabilité et
+l’efficacité de ces approches, dans le but de proposer des bases solides
+pour des outils cryptographiques à la fois robustes et pratiques,
+répondant ainsi aux enjeux de sécurité et d’efficacité des systèmes d’information modernes. 
+(91 mots)
 
 ### Brouillon général ( au maximum 10^10 mots )
 Le problème de garder en sécurité un circuit électronique....etc.
