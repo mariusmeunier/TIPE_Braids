@@ -1,21 +1,25 @@
 ## Motivation (au maximum 50 mots)
-1) Peut-être trop général sur les algos post-quantiques, mais vraiment c'qui s'est passé :
-Avec l'avènement qui semble imminent de la suprématie quantique, la recherche d'algorithmes (12 mots)
-plus robustes et théoriquement prouvés comme difficiles s'est intensifiée et suscite (23 mots)
-de plus en plus d'intérêt. En particulier, l'obfuscation de circuits s'inscrit dans la (36 mots)
-cryptographie. La théorie des tresses propose des moyens raffinés pour (46 mots)
-parvenir à cette sûreté escomptée. (51 mots)
-2) Version 2, par Marius:
+
+1) Première version:
+Avec l'avènement qui semble imminent de la suprématie quantique, la recherche d'algorithmes
+plus robustes et théoriquement prouvés comme difficiles s'est intensifiée et suscite
+de plus en plus d'intérêt. En particulier, l'obfuscation de circuits s'inscrit dans la
+cryptographie. La théorie des tresses propose des moyens raffinés pour
+parvenir à cette sûreté escomptée.
+
+2) Deuxième version:
 Face à l'émergence des ordinateurs quantiques, les protocoles classiques sont menacés. L'obfuscation de circuits,
 essentielle pour garantir la confidentialité des systèmes embarqués, constitue un enjeu clé en cryptographie.
 La théorie des tresses offre des outils mathématiques prometteurs pour concevoir des obfuscations robustes et résistantes aux attaques post-quantiques.
-3) Plus centré sur l'utilité de l'obfuscation, mais semble plus sorti de nulle part :
+
+3) Troisième version:
 De nombreuses machines nécessitent pour leur sécurité de composants cryptographiques qui 
 dans le cas souvent récurrents de systèmes embarqués nécessitent que le fonctionnement
 de ses composants reste caché pour garantir la sécurité. C'est pour cela que nous nous somment intéressés
 à la manière dont on peut transformer un circuit en un circuit équivalent qu'il serait très difficile à
-comprendre (à modifier et résumer : 62 mots )
-4) Version 4, par Marius encore:
+comprendre
+
+4) Quatrième version:
 Avec l’essor des ordinateurs quantiques, garantir la confidentialité des systèmes embarqués nécessite des algorithmes robustes.
 L’obfuscation de circuits, qui consiste à rendre leur fonctionnement incompréhensible tout en préservant leur utilité, s’avère essentielle.
 La théorie des tresses offre des outils prometteurs pour développer des solutions sécurisées et résistantes aux attaques post-quantiques.
@@ -42,8 +46,11 @@ L’efficacité de ces méthodes repose sur l’existence d’algorithmes en tem
 
 Enfin, le lien entre théorie des tresses et cryptographie ouvre des perspectives intéressantes pour d'autres applications, notamment la vérification d'intégrité dans des systèmes distribués ou la modélisation de systèmes complexes. Bien que des questions subsistent, notamment sur la robustesse des méthodes d’obfuscation face à des adversaires quantiques, les travaux récents offrent une base solide pour explorer ces nouveaux horizons. En somme, l’application de la théorie des tresses à l’obfuscation de circuits représente une symbiose unique entre mathématiques fondamentales et enjeux pratiques de la cybersécurité moderne.
 
+639 mots.
 
 ## Problématique retenue (au maximum 50 mots)
+
+La théorie des tresses offre des perspectives prometteuses en matière de sécurisation de systèmes d'information dans un contexte post-quantique. Comment la théorie des tresses peut-elle être exploitée pour développer des outils cryptographiques robustes, adaptés à la transition post-quantique, tout en répondant aux enjeux de praticité et de sécurité algorithmique ?
 
 ## Objectifs du TIPE Acssiohm (au maximum 100 mots)
 
@@ -60,7 +67,6 @@ sont à revoir si on veut éviter leur obsolescense face aux ordinateurs quantiq
 Il est donc nécessaire de travailler sur une transition post-quantique, pour 
 construire des systèmes robustes face aux attaques quantique, ce qui peut se faire selon [?]
 par la constitution de problèmes NP-complets.
-
 
 
 Ainsi l'objectif de l'obsufaction de circuit est de prendre un cicuit logique et le 
